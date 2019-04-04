@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qust.employment.mapper.JobMapper">
+    <select id="selectJob" resultType="com.qust.employment.po.Job">
+        select jobID, uuid, jobName, jobLocation, jobRequirements, jobSalary, jobCompany
+        from job
+        <where>
+            1=1
+          <if test="jobName!=''">
+              and jobName like concat(concat('%',#{jobName}),'%')
+          </if>
+          <if test="jobLocation!=''">
+              and jobLocation like concat(concat('%',#{jobLocation}),'%')
+          </if>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,210 @@
+2019-03-30 15:31:41,178 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 15:31:41,188 - __main__ - INFO - 'list' object has no attribute 'replace' - 216 
+2019-03-30 15:32:43,283 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 15:32:43,286 - __main__ - INFO - 'list' object has no attribute 'replace' - 216 
+2019-03-30 15:33:02,364 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 15:33:02,366 - __main__ - INFO - 'list' object has no attribute 'replace' - 216 
+2019-03-30 15:33:27,578 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 15:33:27,579 - __main__ - INFO - sismember() missing 1 required positional argument: 'value' - 216 
+2019-03-30 15:35:05,283 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 15:35:07,288 - __main__ - INFO - Error 10061 connecting to localhost:6379. 由于目标计算机积极拒绝，无法连接。. - 216 
+2019-03-30 15:40:06,657 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 15:40:08,674 - __main__ - INFO - Error 10061 connecting to localhost:6379. 由于目标计算机积极拒绝，无法连接。. - 216 
+2019-03-30 16:20:06,204 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:20:06,351 - __main__ - INFO - 'dict' object has no attribute 'iteritems' - 216 
+2019-03-30 16:21:20,155 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:21:20,247 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,255 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,261 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,266 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,272 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,277 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,282 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,288 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,292 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,295 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,299 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,303 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,306 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,308 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,311 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,314 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,316 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,319 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:21:20,322 - __main__ - INFO - (1292, "Incorrect datetime value: '\r\n                                    ' for column 'date' at row 1") - 174 
+2019-03-30 16:28:31,038 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:28:31,043 - __main__ - INFO - Object of type _Element is not JSON serializable - 216 
+2019-03-30 16:29:15,434 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:29:15,437 - __main__ - INFO - list index out of range - 216 
+2019-03-30 16:32:10,848 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:32:41,265 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:32:57,426 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:32:57,454 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,481 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,483 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,485 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,488 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,490 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,492 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,494 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,496 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,499 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,501 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,503 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,505 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,508 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,510 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,512 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,515 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,517 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,519 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:32:57,521 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:32:57',())' at line 2") - 174 
+2019-03-30 16:33:59,143 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:33:59,146 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,149 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,152 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,155 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,157 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,159 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,161 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,165 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,169 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,172 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,174 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,176 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,178 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,181 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,183 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,185 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,188 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,190 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,192 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:33:59,194 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:33:59',())' at line 2") - 174 
+2019-03-30 16:34:48,034 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:35:09,029 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:35:28,991 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:35:28,998 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:28',())' at line 2") - 175 
+2019-03-30 16:35:29,004 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,012 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,018 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,022 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,026 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,030 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,033 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,036 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,039 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,042 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,046 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,049 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,051 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,053 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,055 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,057 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,059 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,061 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:35:29,063 - __main__ - INFO - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),'青岛科技大学就业指导中心','2019-03-30 16:35:29',())' at line 2") - 175 
+2019-03-30 16:38:04,115 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:38:04,145 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,169 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,173 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,176 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,179 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,182 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,185 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,189 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,191 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,194 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,197 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,199 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,201 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,206 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,209 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,212 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,215 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,218 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,221 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:04,224 - __main__ - INFO - (1241, 'Operand should contain 1 column(s)') - 175 
+2019-03-30 16:38:43,197 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:38:43,205 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-01                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,210 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-01                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,215 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-01                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,219 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-01                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,224 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-02                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,228 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-03                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,233 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-03                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,239 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-03                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,241 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-03                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,244 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-03                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,247 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-03                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,250 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-08                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,253 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-08                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,256 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-08                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,260 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-09                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,263 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-09                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,266 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-11                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,269 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-11                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,271 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-12                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:38:43,273 - __main__ - INFO - (1292, "Incorrect datetime value: '时间：2019-04-12                                ' for column 'date' at row 1") - 175 
+2019-03-30 16:39:33,541 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:39:33,708 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:33,886 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:33,952 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,030 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,107 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,185 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,273 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,347 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,412 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,481 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,545 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,611 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,691 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,779 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,924 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:34,992 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:35,057 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:35,125 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:35,190 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:39:35,258 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:30,100 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:43:30,316 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:30,409 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:30,483 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:30,553 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:30,698 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:30,804 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:30,875 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:30,948 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:31,026 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:31,096 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:31,181 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:31,264 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:31,349 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:31,434 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:31,512 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:31,711 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:31,789 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:31,867 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:31,944 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:43:32,022 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:06,781 - __main__ - INFO - list page urlhttp://job.qust.edu.cn/index.php?route=shuangxuanhui/xuanjianghui_list - 131 
+2019-03-30 16:46:06,899 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:06,970 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,048 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,125 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,203 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,258 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,336 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,420 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,491 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,569 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,646 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,702 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,779 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,891 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:07,987 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:08,069 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:08,157 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:08,235 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:08,353 - __main__ - INFO - 入库完成 - 173 
+2019-03-30 16:46:08,435 - __main__ - INFO - 入库完成 - 173 

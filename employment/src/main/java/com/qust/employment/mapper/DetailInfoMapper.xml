@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qust.employment.mapper.DetailInfoMapper">
+  <select id="selectByPrimaryKey" resultType="com.qust.employment.po.DetailInfo">
+    select id, uuid
+    from detail_info
+    where id=#{id}
+
+  </select>
+</mapper>
