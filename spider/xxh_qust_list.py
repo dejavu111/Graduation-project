@@ -132,8 +132,8 @@ class MySpider():
         for i in range(1,21):
             detail_url = data.xpath('''(//li[@class="l-twos"])[{}]//div[@class="l-tw-title"]/@onclick'''.format(i))[0].replace("window.location.href='","").replace("'","")
             detail_url = urljoin.url_path_join("http://job.qust.edu.cn",detail_url)
-            # if self.getdumps(detail_url):
-            #     continue
+            if self.getdumps(detail_url):
+                continue
             date = data.xpath('''(//li[@class="l-twos"])[{}]//div[@class="l-tw-xiangq"]/p[@class="l-tw-xiangqa"]/text()[2]'''.format(i))[0].replace("时间：","")
             location = data.xpath('''(//li[@class="l-twos"])[{}]//div[@class="l-tw-xiangq2"]/p[@class="l-tw-xiangqa"]/text()[2]'''.format(i))[0].replace("地点：","")
             uid = str(uuid.uuid3(uuid.NAMESPACE_DNS, detail_url)) + str(uuid.uuid5(uuid.NAMESPACE_DNS, detail_url))[0]

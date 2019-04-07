@@ -159,16 +159,44 @@ class MySpider():
                          companyInfo))
                     for i in range(1,num+1):
                         jobName = \
-                        data.xpath('''//ul[@id="ul_zhiweis"]//li[{}]//p[@class="x-szhi-1"]/a/text()'''.format(i))[0]
+                        data.xpath('''//ul[@id="ul_zhiweis"]//li[{}]//p[@class="x-szhi-1"]/a/text()'''.format(i))
+                        if jobName:
+                            jobName = jobName[0]
+                        else:
+                            jobName = data.xpath('''//ul[@id="ul_zhiweis"]//li[{}]//p[@class="x-szhi-1"]/text()'''.format(i))
+                            if jobName:
+                                jobName = jobName[0]
+                            else:
+                                jobName = ""
                         jobLocation = \
-                        data.xpath('''//ul[@id="ul_zhiweis"]//li[{}]//p[@class="x-szhi-1"]/text()'''.format(i))[0]
+                        data.xpath('''//ul[@id="ul_zhiweis"]//li[{}]//p[@class="x-szhi-1"]/text()'''.format(i))
+                        if jobLocation:
+                            jobLocation = jobLocation[0]
+                        else:
+                            jobLocation = ""
+                        if "[" not in jobLocation:
+                            jobLocation = ""
                         jobRequirements = \
-                        data.xpath('''//ul[@id="ul_zhiweis"]//li[{}]//p[@class="x-szhi-2"]/text()'''.format(i))[0].replace("&nbsp ","")
+                        data.xpath('''//ul[@id="ul_zhiweis"]//li[{}]//p[@class="x-szhi-2"]/text()'''.format(i))
+                        if jobRequirements:
+                            jobRequirements = jobRequirements[0].replace("&nbsp ","")
+                        else:
+                            jobRequirements = ""
                         jobSalary = \
-                        data.xpath('''//ul[@id="ul_zhiweis"]//li[{}]//p[@class="x-szhi-2"]/span/text()'''.format(i))[0]
+                        data.xpath('''//ul[@id="ul_zhiweis"]//li[{}]//p[@class="x-szhi-2"]/span/text()'''.format(i))
+                        if jobSalary:
+                            jobSalary = jobSalary[0]
+                        else:
+                            jobSalary = ""
+                        if "k" not in jobSalary:
+                            jobSalary = ""
                         jobCompany = \
-                        data.xpath('''//ul[@id="ul_zhiweis"]//li[{}]//p[@class="x-szhi-3"]//text()'''.format(i))[0]
-                        sql = '''insert into job_info (uuid,jobName,jobLocation,jobRequirements,jobSalary,jobCompany)
+                        data.xpath('''//ul[@id="ul_zhiweis"]//li[{}]//p[@class="x-szhi-3"]//text()'''.format(i))
+                        if jobCompany:
+                            jobCompany = jobCompany[0]
+                        else:
+                            jobCompany = ""
+                        sql = '''insert into job (uuid,jobName,jobLocation,jobRequirements,jobSalary,jobCompany)
                         VALUE (%s,%s,%s,%s,%s,%s);'''
                         self.cursor.execute(sql,(uuid,jobName,jobLocation,jobRequirements,jobSalary,jobCompany))
 
