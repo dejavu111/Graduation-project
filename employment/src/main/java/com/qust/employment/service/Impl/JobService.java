@@ -29,4 +29,10 @@ public class JobService implements IJobService {
         List<Job> jobList = jobMapper.selectJob(jobName,jobLocation);
         return Utils.toResultJson(Constants.SUCCESS_CODE,"",jobList);
     }
+
+    @Override
+    public String getJobsByUUID(String uuid) {
+        List<Job> jobList = jobMapper.selectJobByUUID(uuid);
+        return Utils.toResultJson(Constants.SUCCESS_CODE,"",jobList);
+    }
 }

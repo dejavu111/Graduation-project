@@ -13,4 +13,6 @@ import java.util.List;
  */
 public interface IJobService {
    String getJobList(String jobName, String jobLocation);
+
+   String getJobsByUUID(String uuid);
 }

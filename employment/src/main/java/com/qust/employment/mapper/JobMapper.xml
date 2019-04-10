@@ -14,4 +14,10 @@
           </if>
         </where>
     </select>
+
+    <select id="selectJobByUUID" resultType="com.qust.employment.po.Job">
+        select jobID, uuid, jobName, jobLocation, jobRequirements, jobSalary, jobCompany
+        from job
+        where uuid = #{uuid}
+    </select>
 </mapper>

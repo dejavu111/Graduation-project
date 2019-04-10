@@ -21,4 +21,9 @@ public class JobController {
     public String getJobs(@RequestParam(value = "jobName") String jobName,@RequestParam(value = "jobLocation") String jobLocation) {
         return iJobService.getJobList(jobName,jobLocation);
     }
+
+    @RequestMapping(value = "/job/detail")
+    public String getJobsByID(@RequestParam(value = "uuid") String uuid) {
+        return iJobService.getJobsByUUID(uuid);
+    }
 }

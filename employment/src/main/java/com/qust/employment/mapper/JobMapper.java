@@ -21,4 +21,6 @@ public interface JobMapper {
     int updateByPrimaryKey(Job record);
 
     List<Job> selectJob(@Param("jobName") String jobName, @Param("jobLocation") String jobLocation);
+
+    List<Job> selectJobByUUID(@Param("uuid") String uuid);
 }
