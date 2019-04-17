@@ -28,6 +28,7 @@ public class ListInfoService implements IListInfoService {
     public String getListInfoList(int pageNum) {
         int pageSize = 5;
         List<ListInfo> listInfos = listInfoMapper.selectAll(new Date(),pageNum*pageSize,pageSize);
+
         if (pageNum == 0) {
             List<Map<String, Object>> totalPages = listInfoMapper.selectAlltotalpages(new Date());
             if (totalPages.isEmpty()) {

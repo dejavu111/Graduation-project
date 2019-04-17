@@ -19,8 +19,8 @@ public class DetailInfoController {
     @Autowired
     private IDetailInfoService idetailInfoService;
 
-    @RequestMapping(value = "/detailInfo/{detailId}")
-    public String detailInfo(@PathVariable("detailId") Integer detailId) {
-        return idetailInfoService.getDetailInfo(detailId);
+    @RequestMapping(value = "/detailInfo/{uuid}")
+    public String detailInfo(@PathVariable("uuid") Integer uuid) {
+        return idetailInfoService.getDetailInfo(uuid);
     }
 }

@@ -1,5 +1,7 @@
 package com.qust.employment.po;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 
 public class ListInfo {
@@ -13,6 +15,7 @@ public class ListInfo {
 
     private String location;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date date;
 
     private String sitename;
@@ -61,10 +64,11 @@ public class ListInfo {
         this.location = location == null ? null : location.trim();
     }
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     public Date getDate() {
         return date;
     }
-
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     public void setDate(Date date) {
         this.date = date;
     }

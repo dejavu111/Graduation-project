@@ -2,6 +2,7 @@ package com.qust.employment.mapper;
 
 import com.qust.employment.po.DetailInfo;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 
@@ -23,4 +24,6 @@ public interface DetailInfoMapper {
     int updateByPrimaryKeySelective(DetailInfo record);
 
     int updateByPrimaryKey(DetailInfo record);
+
+    DetailInfo selectByUUID(@Param("uuid") Integer uuid);
 }

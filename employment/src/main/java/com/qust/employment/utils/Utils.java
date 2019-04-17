@@ -3,10 +3,13 @@ package com.qust.employment.utils;
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.base.Strings;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.LongSerializationPolicy;
 import com.qust.employment.Constant.Constants;
 
 
 import java.math.BigDecimal;
+import java.sql.Timestamp;
 import java.time.*;
 
 public class Utils {
@@ -67,8 +70,9 @@ public class Utils {
 
     public static String toResultJson(int code, String msg, Object obj){
         JSONObject resultJson = new JSONObject();
-        Gson resultGson = new Gson();
-
+        Gson resultGson = new GsonBuilder()
+                .setLongSerializationPolicy(LongSerializationPolicy.STRING)
+                .create();
         resultJson.put("code", code);
 
         if (Constants.SUCCESS_CODE == code) {
@@ -88,13 +92,15 @@ public class Utils {
 
     public static String toResultJson(int code, String msg, Object obj, int pages){
         JSONObject resultJson = new JSONObject();
-        Gson resultGson = new Gson();
+        Gson resultGson = new GsonBuilder()
+                .setLongSerializationPolicy(LongSerializationPolicy.STRING)
+                .create();
 
         resultJson.put("code", code);
 
         if (Constants.SUCCESS_CODE == code) {
             if(obj != null){
-                resultJson.put("data", resultGson.toJson(obj));
+                resultJson.put("data", JSONObject.toJSON(obj));
             }else{
                 resultJson.put("data", "");
             }

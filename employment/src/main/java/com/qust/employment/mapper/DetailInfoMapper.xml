@@ -7,4 +7,11 @@
     where id=#{id}
 
   </select>
+
+  <select id="selectByUUID" resultType="com.qust.employment.po.DetailInfo">
+    select *
+    from detail_info
+    where uuid=#{uuid}
+
+  </select>
 </mapper>
