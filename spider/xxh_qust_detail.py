@@ -119,15 +119,14 @@ class MySpider():
                     '''//ul[@class="x-xul"][1]//text()''') # 内容
                 content = ''
                 for i in contents:
-                    content += i.strip() + ' '
+                    content += i + ' '
 
-                content = self.makecontent(content)
                 ctime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 holdTime = data.xpath('''//div[@class="x-zwkn"]//tr[@class="x-tatrs"][1]//p[@class="x-tatdb"]/text()''')[0]
                 companyInfos = data.xpath('''//ul[@id="ul_customers"]//text()''')
                 companyInfo = ''
                 for i in companyInfos:
-                    companyInfo += i.strip() + ' '
+                    companyInfo += i+ ' '
                 jobList = data.xpath('''//ul[@id="ul_zhiweis"]//li''')
                 num = len(jobList)
                 print(num)
@@ -247,13 +246,7 @@ class MySpider():
             post.update({k: v})
         return post
 
-    def makecontent(self, content):
-        # print "before:", content
-        content = re.sub(" |\t|\n|\r|\r\n", "", content).strip()
-        content = content.replace(" ", "").strip()
-        content = ''.join(content.split(" "))
-        # print "after", content
-        return content
+ 
 
 
 
