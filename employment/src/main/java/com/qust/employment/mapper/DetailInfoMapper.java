@@ -25,5 +25,5 @@ public interface DetailInfoMapper {
 
     int updateByPrimaryKey(DetailInfo record);
 
-    DetailInfo selectByUUID(@Param("uuid") Integer uuid);
+    DetailInfo selectByUUID(@Param("uuid") String uuid);
 }

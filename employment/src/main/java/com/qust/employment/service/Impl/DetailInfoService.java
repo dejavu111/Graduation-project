@@ -20,7 +20,7 @@ public class DetailInfoService implements IDetailInfoService {
     @Autowired
     private DetailInfoMapper detailInfoMapper;
     @Override
-    public String getDetailInfo(Integer uuid) {
+    public String getDetailInfo(String uuid) {
 
         DetailInfo detailInfo = detailInfoMapper.selectByUUID(uuid);
         return Utils.toResultJson(Constants.SUCCESS_CODE,"",detailInfo);
