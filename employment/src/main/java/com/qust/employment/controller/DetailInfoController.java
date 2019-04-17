@@ -20,7 +20,7 @@ public class DetailInfoController {
     private IDetailInfoService idetailInfoService;
 
     @RequestMapping(value = "/detailInfo/{uuid}")
-    public String detailInfo(@PathVariable("uuid") Integer uuid) {
+    public String detailInfo(@PathVariable("uuid") String uuid) {
         return idetailInfoService.getDetailInfo(uuid);
     }
 }
