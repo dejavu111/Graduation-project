@@ -5,12 +5,13 @@ import com.qust.employment.mapper.JobMapper;
 import com.qust.employment.po.Job;
 import com.qust.employment.service.IJobService;
 import com.qust.employment.utils.Utils;
-import org.apache.ibatis.annotations.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author ：dejavu111
@@ -25,9 +26,23 @@ public class JobService implements IJobService {
     @Autowired
     private JobMapper jobMapper;
     @Override
-    public String getJobList(String jobName, String jobLocation) {
-        List<Job> jobList = jobMapper.selectJob(jobName,jobLocation);
-        return Utils.toResultJson(Constants.SUCCESS_CODE,"",jobList);
+    public String getJobList(int pageNum, String jobName, String jobLocation) {
+        int pageSize = 5;
+        List<Job> jobList = jobMapper.selectJob(pageNum*pageSize,pageSize,jobName,jobLocation);
+        if (pageNum == 0) {
+            List<Map<String, Object>> totalPages = jobMapper.selectAlltotalpages();
+            if (totalPages.isEmpty()) {
+                return Utils.toResultJson(Constants.FAIL_CODE, "网络繁忙", "");
+            }
+
+            double pages = Math.ceil(Double.valueOf(String.valueOf(totalPages.get(0).getOrDefault("pages", "0"))) / pageSize);
+
+            return Utils.toResultJson(Constants.SUCCESS_CODE, "", jobList, (int) pages);
+        } else {
+            return Utils.toResultJson(Constants.SUCCESS_CODE, "", jobList);
+        }
+
+
     }
 
     @Override

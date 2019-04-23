@@ -15,6 +15,8 @@ public class ListInfo {
 
     private String location;
 
+    private String keywords;
+
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date date;
 
@@ -95,5 +97,13 @@ public class ListInfo {
 
     public void setIsparsed(Integer isparsed) {
         this.isparsed = isparsed;
+    }
+
+    public String getKeywords() {
+        return keywords;
+    }
+
+    public void setKeywords(String keywords) {
+        this.keywords = keywords;
     }
 }

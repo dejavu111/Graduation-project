@@ -2,9 +2,9 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.qust.employment.mapper.ListInfoMapper">
     <select id="selectAll"  resultType="com.qust.employment.po.ListInfo">
-        select uuid, detailUrl, title, location, date, id, siteName
+        select uuid, detailUrl, title, location, date, id, siteName, keywords
         from list_info
-        where date > #{currentDate}
+        where date > #{currentDate} and isparsed = 1
         order by date
         LIMIT #{pageNum},#{pageSize}
     </select>
@@ -12,6 +12,6 @@
     <select id="selectAlltotalpages" resultType="java.util.Map">
          select COUNT(*) pages
         from list_info
-        where date > #{currentDate}
+        where date > #{currentDate} and isparsed = 1
     </select>
 </mapper>

@@ -2,6 +2,7 @@ package com.qust.employment.controller;
 
 import com.qust.employment.service.IJobService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,9 +18,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class JobController {
     @Autowired
     IJobService iJobService;
-    @RequestMapping(value = "/job")
-    public String getJobs(@RequestParam(value = "jobName") String jobName,@RequestParam(value = "jobLocation") String jobLocation) {
-        return iJobService.getJobList(jobName,jobLocation);
+    @RequestMapping(value = "/job/{pageNum}")
+    public String getJobs(@PathVariable int pageNum, @RequestParam(value = "jobName",required = false,defaultValue = "") String jobName, @RequestParam(value = "jobLocation",required = false,defaultValue = "") String jobLocation) {
+        return iJobService.getJobList(pageNum,jobName,jobLocation);
     }
 
     @RequestMapping(value = "/job/detail")

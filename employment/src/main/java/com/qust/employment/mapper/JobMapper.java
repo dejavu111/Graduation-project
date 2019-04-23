@@ -5,6 +5,8 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
+
 @Mapper
 public interface JobMapper {
 
@@ -20,7 +22,9 @@ public interface JobMapper {
 
     int updateByPrimaryKey(Job record);
 
-    List<Job> selectJob(@Param("jobName") String jobName, @Param("jobLocation") String jobLocation);
+    List<Job> selectJob(@Param("pageNum") int pageNum, @Param("pageSize") int pageSize, @Param("jobName") String jobName, @Param("jobLocation") String jobLocation);
 
     List<Job> selectJobByUUID(@Param("uuid") String uuid);
+
+    List<Map<String, Object>> selectAlltotalpages();
 }

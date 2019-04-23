@@ -1,9 +1,5 @@
 package com.qust.employment.service;
 
-import com.qust.employment.po.Job;
-
-import java.util.List;
-
 /**
  * @author ：dejavu111
  * @date ：Created in 2019/4/4 15:28
@@ -12,7 +8,7 @@ import java.util.List;
  * @version: $
  */
 public interface IJobService {
-   String getJobList(String jobName, String jobLocation);
+   String getJobList(int pageNum, String jobName, String jobLocation);
 
    String getJobsByUUID(String uuid);
 }
