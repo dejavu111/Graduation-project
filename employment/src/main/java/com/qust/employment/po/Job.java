@@ -15,6 +15,8 @@ public class Job {
 
     private String jobcompany;
 
+    private String detailUrl;
+
     public Integer getJobid() {
         return jobid;
     }
@@ -69,5 +71,13 @@ public class Job {
 
     public void setJobcompany(String jobcompany) {
         this.jobcompany = jobcompany == null ? null : jobcompany.trim();
+    }
+
+    public String getDetailUrl() {
+        return detailUrl;
+    }
+
+    public void setDetailUrl(String detailUrl) {
+        this.detailUrl = detailUrl;
     }
 }

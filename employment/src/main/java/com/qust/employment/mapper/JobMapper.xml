@@ -2,16 +2,13 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.qust.employment.mapper.JobMapper">
     <select id="selectJob" resultType="com.qust.employment.po.Job">
-        select jobID, uuid, jobName, jobLocation, jobRequirements, jobSalary, jobCompany
+        select jobID, uuid, jobName, jobLocation, jobRequirements, jobSalary, jobCompany,detailUrl
         from job
         <where>
             1=1
-          <if test="jobName!=''">
-              and jobName like concat(concat('%',#{jobName}),'%')
-          </if>
-          <if test="jobLocation!=''">
-              and jobLocation like concat(concat('%',#{jobLocation}),'%')
-          </if>
+            <if test="jobName!=''">
+                and jobName like concat(concat('%',#{jobName}),'%') or jobLocation like concat(concat('%',#{jobName}),'%')
+            </if>
         </where>
         LIMIT #{pageNum},#{pageSize}
     </select>
@@ -21,16 +18,13 @@
     <where>
         1=1
         <if test="jobName!=''">
-            and jobName like concat(concat('%',#{jobName}),'%')
-        </if>
-        <if test="jobLocation!=''">
-            and jobLocation like concat(concat('%',#{jobLocation}),'%')
+            and jobName like concat(concat('%',#{jobName}),'%') or jobLocation like concat(concat('%',#{jobName}),'%')
         </if>
     </where>
 </select>
 
     <select id="selectJobByUUID" resultType="com.qust.employment.po.Job">
-        select jobID, uuid, jobName, jobLocation, jobRequirements, jobSalary, jobCompany
+        select jobID, uuid, jobName, jobLocation, jobRequirements, jobSalary, jobCompany,detailUrl
         from job
         where uuid = #{uuid}
     </select>

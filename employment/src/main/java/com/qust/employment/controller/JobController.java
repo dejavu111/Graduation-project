@@ -19,8 +19,8 @@ public class JobController {
     @Autowired
     IJobService iJobService;
     @RequestMapping(value = "/job/{pageNum}")
-    public String getJobs(@PathVariable int pageNum, @RequestParam(value = "jobName",required = false,defaultValue = "") String jobName, @RequestParam(value = "jobLocation",required = false,defaultValue = "") String jobLocation) {
-        return iJobService.getJobList(pageNum,jobName,jobLocation);
+    public String getJobs(@PathVariable int pageNum, @RequestParam(value = "jobName",required = false,defaultValue = "") String jobName) {
+        return iJobService.getJobList(pageNum,jobName);
     }
 
     @RequestMapping(value = "/job/detail")

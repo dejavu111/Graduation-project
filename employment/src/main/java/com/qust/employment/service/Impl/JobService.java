@@ -26,9 +26,9 @@ public class JobService implements IJobService {
     @Autowired
     private JobMapper jobMapper;
     @Override
-    public String getJobList(int pageNum, String jobName, String jobLocation) {
+    public String getJobList(int pageNum, String jobName) {
         int pageSize = 5;
-        List<Job> jobList = jobMapper.selectJob(pageNum*pageSize,pageSize,jobName,jobLocation);
+        List<Job> jobList = jobMapper.selectJob(pageNum*pageSize,pageSize,jobName);
         if (pageNum == 0) {
             List<Map<String, Object>> totalPages = jobMapper.selectAlltotalpages();
             if (totalPages.isEmpty()) {

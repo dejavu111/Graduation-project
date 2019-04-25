@@ -8,7 +8,7 @@ package com.qust.employment.service;
  * @version: $
  */
 public interface IJobService {
-   String getJobList(int pageNum, String jobName, String jobLocation);
+   String getJobList(int pageNum, String jobName);
 
    String getJobsByUUID(String uuid);
 }
