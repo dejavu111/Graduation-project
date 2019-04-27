@@ -1,22 +1,13 @@
 # -*- coding:utf-8 -*-
-import redis
-import base64
-import json
-import math
-import time
-import re
-import datetime
-import urllib
-import random
-import urljoin
-import uuid
-from lxml import etree
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 import MySQLdb
 import os
 import logging
 import jieba
 import jieba.analyse
-
+import chardet
 logger = logging.getLogger(__name__)
 logger.setLevel(level = logging.INFO)
 # A handler class which writes formatted logging records to disk files.
@@ -31,7 +22,7 @@ cur_path = os.path.dirname(__file__)
 
 class KeyWords:
     def __init__(self):
-        self.db = MySQLdb.connect(host="127.0.0.1",user="root",passwd="root",db='qust', charset='utf8')
+        self.db = MySQLdb.connect(host="188.131.252.159",user="root",passwd="root",db='qust', charset='utf8')
         # 设置返回类型是字典
         self.cursor = self.db.cursor(cursorclass=MySQLdb.cursors.DictCursor)
 
@@ -62,16 +53,24 @@ class KeyWords:
 
 
     def get_keyword(self,content):
-        return jieba.analyse.extract_tags(content, topK=5, withWeight=False, allowPOS=('an')).__str__()
+        result =  jieba.analyse.extract_tags(content, topK=5, withWeight=False, allowPOS=('an'),)
+        list = [item.encode('utf-8') for item in result]
 
+        return "/".join(result)
     def update_keyword(self,post):
         update_sql = '''update {} set isparsed="{}", keywords = "{}" where uuid = "{}"'''.format(self.table, 1,
                                                                                               self.get_keyword(
                                                                                                   post.get("content")),
                                                                                post.get("uuid"))
-        print(update_sql)
+
+        update_sql2 = '''update {} set keywords = "{}" where uuid = "{}"'''.format(self.list_table,
+                                                                                                 self.get_keyword(
+                                                                                                     post.get(
+                                                                                                         "content")),
+                                                                                                 post.get("uuid"))
         try:
             self.cursor.execute(update_sql)
+            self.cursor.execute(update_sql2)
             self.db.commit()
             print("修改keyword成功")
             logging.info("修改keyword成功")

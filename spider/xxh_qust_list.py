@@ -1,5 +1,5 @@
+# -*- coding:utf-8 -*-
 import copy
-
 import requests
 import redis
 import base64
@@ -60,11 +60,11 @@ class MySpider():
         self.request_headers = {'headers': self.headers}
         try:
             # self.conn = redis.StrictRedis.from_url ('redis://192.168.1.34/5')
-            self.conn = redis.StrictRedis.from_url ('redis://localhost/5')
+            self.conn = redis.StrictRedis.from_url ('redis://127.0.0.1/5')
         except:
             self.conn = None
         # self.db = DB ().create ('mysql://zhxg:ZHxg2017!@192.168.1.19:3306/sjk')
-        self.db = MySQLdb.connect(host="127.0.0.1",user="root",passwd="root",db='qust', charset='utf8')
+        self.db = MySQLdb.connect(host="188.131.252.159",user="root",passwd="root",db='qust', charset='utf8')
         # self.db = MySQLdb.connect(host="localhost",user="root",passwd="1234",db='sjk', charset='utf8')
         self.cursor = self.db.cursor ()
 

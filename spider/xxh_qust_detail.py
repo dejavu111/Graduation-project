@@ -1,7 +1,8 @@
-
+# -*- coding:utf-8 -*-
 # 采集的列表页，得到的结果为链接，标题，时间，地区
-import copy
-
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 import requests
 import redis
 import base64
@@ -11,11 +12,10 @@ import time
 import re
 import datetime
 import urllib
-
+import copy
 import random
 import urljoin
 import uuid
-from bs4 import BeautifulSoup
 import MySQLdb
 import sys
 
@@ -65,11 +65,11 @@ class MySpider():
         # self.request_headers = {'headers': self.headers}
         try:
             # self.conn = redis.StrictRedis.from_url('redis://192.168.1.34/3')
-            self.conn = redis.StrictRedis.from_url('redis://localhost/5')
+            self.conn = redis.StrictRedis.from_url('redis://188.131.252.159/5')
         except:
             self.conn = None
         # self.db = DB ().create ('mysql://zhxg:ZHxg2017!@192.168.1.19:3306/sjk')
-        self.db = MySQLdb.connect(host="127.0.0.1", user="root", passwd="root", db='qust', charset='utf8')
+        self.db = MySQLdb.connect(host="188.131.252.159", user="root", passwd="root", db='qust', charset='utf8')
         self.cursor = self.db.cursor(cursorclass=MySQLdb.cursors.DictCursor)
         # a = self.conn.get("cookie:chinabidding")
         # aa = json.loads(a)
@@ -120,7 +120,7 @@ class MySpider():
                 content = ''
                 for i in contents:
                     content += i + ' '
-
+                content = self.makecontent(content)
                 ctime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 holdTime = data.xpath('''//div[@class="x-zwkn"]//tr[@class="x-tatrs"][1]//p[@class="x-tatdb"]/text()''')[0]
                 companyInfos = data.xpath('''//ul[@id="ul_customers"]//text()''')
@@ -195,9 +195,9 @@ class MySpider():
                             jobCompany = jobCompany[0]
                         else:
                             jobCompany = ""
-                        sql = '''insert into job (uuid,jobName,jobLocation,jobRequirements,jobSalary,jobCompany)
-                        VALUE (%s,%s,%s,%s,%s,%s);'''
-                        self.cursor.execute(sql,(uuid,jobName,jobLocation,jobRequirements,jobSalary,jobCompany))
+                        sql = '''insert into job (uuid,jobName,jobLocation,jobRequirements,jobSalary,jobCompany,detailUrl)
+                        VALUE (%s,%s,%s,%s,%s,%s,%s);'''
+                        self.cursor.execute(sql,(uuid,jobName,jobLocation,jobRequirements,jobSalary,jobCompany,detailUrl))
 
                     self.cursor.execute('update list_info set isparsed="1" where uuid = "{0}"'.format(uuid))
                     self.db.commit()  # 把修改的数据提交到数据库
@@ -218,6 +218,14 @@ class MySpider():
 
         uu = []
         return (uu, None, None)
+
+    def makecontent(self, content):
+        # print "before:", content
+        content = re.sub(" |\t|\n|\r|\r\n", "", content).strip()
+        # content = content.replace(" ", "").strip()
+        # content = ''.join(content.split(" "))
+        # print "after", content
+        return content
 
     def get_detailpage(self, detailUrl):
 

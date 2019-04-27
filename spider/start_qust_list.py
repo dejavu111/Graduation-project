@@ -1,3 +1,7 @@
+# -*- coding:utf-8 -*-
+# import sys
+# reload(sys)
+# sys.setdefaultencoding("utf-8")
 from xxh_qust_list import MySpider
 import logging
 import datetime
