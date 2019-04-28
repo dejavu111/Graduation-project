@@ -30,7 +30,7 @@ public class JobService implements IJobService {
         int pageSize = 5;
         List<Job> jobList = jobMapper.selectJob(pageNum*pageSize,pageSize,jobName);
         if (pageNum == 0) {
-            List<Map<String, Object>> totalPages = jobMapper.selectAlltotalpages();
+            List<Map<String, Object>> totalPages = jobMapper.selectAlltotalpages(jobName);
             if (totalPages.isEmpty()) {
                 return Utils.toResultJson(Constants.FAIL_CODE, "网络繁忙", "");
             }

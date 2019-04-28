@@ -26,5 +26,5 @@ public interface JobMapper {
 
     List<Job> selectJobByUUID(@Param("uuid") String uuid);
 
-    List<Map<String, Object>> selectAlltotalpages();
+    List<Map<String, Object>> selectAlltotalpages(@Param("jobName") String jobName);
 }
